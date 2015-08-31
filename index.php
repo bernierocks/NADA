@@ -11,6 +11,11 @@ include('header.php'); // Include pulls another file into the page, and sticks i
         </div><!-- /.col8-->
         <div class="col col-sm-12 col-md-4 sidebar"> 
             
+            <div class="login">
+                <? echo log_in_form(); ?>         
+                    
+            </div><!-- /.login -->
+            
             <div class="sponsors">
                 <a href="http://www.nadsa.org/" title="Member of NADSA">
                     <img src="images/logo_ncadsa.jpg">
