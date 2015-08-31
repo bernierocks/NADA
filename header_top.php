@@ -40,6 +40,7 @@ include('includes/functions.php');
 		<script type="text/javascript" src="<?=$base;?>_jquery/js/fullcalendar.min.js"></script>
 		<script type="text/javascript" src="<?=$base;?>bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="<?=$base;?>_jquery/js/_custom.js"></script>
+			<script type="text/javascript" src="<?=$base;?>js/jquery.fittext.js"></script>
 		<link href="https://www.viethconsulting.com/_jquery/nivo/nivo-slider.css" media="screen" rel="stylesheet" type="text/css">
 		
 		<!-- Jake jquery bits -->
