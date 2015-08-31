@@ -20,6 +20,9 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
     <div class="container">   
        <div class="row">  
         <img alt="" src="images/header-banner.jpg" class="img-responsive">
+           <p>
+               Promoting the availability, accessibility, cost effectiveness and quality of adult day services in North Carolina
+           </p>
             <div id="main-menu" class="hidden-xs	hidden-sm">
                 <? echo quick_menu(); ?>
             </div><!-- /.main-menu -->
