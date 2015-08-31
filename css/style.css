@@ -114,8 +114,8 @@ h2 {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 140, style.sass */
-footer {
+/* line 141, style.sass */
+footer .container {
   background-color: #3d70b1;
   min-height: 20px;
   margin: 0 auto;
@@ -123,7 +123,10 @@ footer {
   color: white;
   vertical-align: middle;
 }
-/* line 147, style.sass */
-footer p {
+/* line 148, style.sass */
+footer .container p {
   text-align: center;
+  color: white;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
