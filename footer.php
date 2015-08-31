@@ -19,7 +19,7 @@
 
 <script>
 $("document").ready(function() {
-    $("#tagline").fitText(1.2, { minFontSize: '3px', maxFontSize: '12px' });
+    $("#tagline").fitText();
 });
    
 </script>
