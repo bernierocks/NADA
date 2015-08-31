@@ -13,3 +13,13 @@
     <p>© 2015 North Carolina Adult Day Services Association</p>
     </div><!-- /.container -->
 </footer><!-- /footer -->
+
+
+
+
+<script>
+$("document").ready(function() {
+    $("header p").fitText(1.2, { minFontSize: '3px', maxFontSize: '12px' });
+});
+   
+</script>
