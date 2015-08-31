@@ -13,3 +13,15 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
 } else { //If the IF statement evaluates to FALSE, this code will be run.  This is optional.
 
 }?>
+
+
+
+<header>   
+    <div class="container">   
+        <div class="row">  
+            <div class="col col-sm-12 col-md-12"> 
+                <img alt="" src="images/header-banner.jpg">
+            </div><!-- /.col12-->
+        </div><!-- /.row -->
+    </div><!-- /.container -->    
+</header><!-- /header -->
