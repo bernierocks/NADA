@@ -11,19 +11,17 @@
 /* line 53, style.sass */
 body {
   background-color: #cbd4dd;
-  color: #222222;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 
-/* line 59, style.sass */
+/* line 58, style.sass */
 p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 17px;
-  color: #610000;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
-/* line 63, style.sass */
+/* line 61, style.sass */
 h1 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -31,14 +29,14 @@ h1 {
   margin: 0 0 20px 0;
 }
 
-/* line 68, style.sass */
+/* line 66, style.sass */
 h2 {
   color: #610000;
   padding: 10px 0;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-/* line 73, style.sass */
+/* line 71, style.sass */
 .btn {
   background: #002a78;
   background: #002a78;
@@ -59,12 +57,12 @@ h2 {
   padding: 10px;
 }
 @media (min-width: 1200px) {
-  /* line 73, style.sass */
+  /* line 71, style.sass */
   .btn {
     margin: 30px auto 0 80px;
   }
 }
-/* line 94, style.sass */
+/* line 92, style.sass */
 .btn:hover, .btn:active, .btn:focus {
   background: #003cab;
   border-style: Solid;
@@ -72,22 +70,22 @@ h2 {
   border-width: 2px;
 }
 
-/* line 101, style.sass */
+/* line 99, style.sass */
 ::-webkit-input-placeholder {
   color: #610000 !important;
 }
 
-/* line 104, style.sass */
+/* line 102, style.sass */
 :-moz-placeholder {
   color: #610000 !important;
 }
 
-/* line 107, style.sass */
+/* line 105, style.sass */
 ::-moz-placeholder {
   color: #610000 !important;
 }
 
-/* line 110, style.sass */
+/* line 108, style.sass */
 :-ms-input-placeholder {
   color: #610000 !important;
 }
@@ -97,7 +95,7 @@ h2 {
  * 						Adjustments
  *
  * =========================================================================================== */
-/* line 122, style.sass */
+/* line 120, style.sass */
 .container {
   max-width: 850px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.75);
@@ -114,7 +112,7 @@ h2 {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 141, style.sass */
+/* line 139, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -123,7 +121,7 @@ footer .container {
   color: white;
   vertical-align: middle;
 }
-/* line 148, style.sass */
+/* line 146, style.sass */
 footer .container p {
   text-align: center;
   color: white;
