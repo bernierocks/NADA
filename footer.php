@@ -9,5 +9,7 @@
 
 
 <footer>  
-    © 2015 North Carolina Adult Day Services Association
+   <div class="container">   
+    <p>© 2015 North Carolina Adult Day Services Association</p>
+    </div><!-- /.container -->
 </footer><!-- /footer -->
