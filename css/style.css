@@ -109,7 +109,7 @@ h2 {
  * =========================================================================================== */
 /* line 131, style.sass */
 .tagline {
-  max-width: 850px;
+  width: 850px;
   display: inline-block;
   position: absolute;
 }
