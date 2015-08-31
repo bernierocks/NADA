@@ -10,18 +10,20 @@
 
 /* line 53, style.sass */
 body {
-  background-color: white;
+  background-color: #cbd4dd;
   color: #222222;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
-/* line 57, style.sass */
+/* line 59, style.sass */
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   color: #610000;
 }
 
-/* line 61, style.sass */
+/* line 63, style.sass */
 h1 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -29,14 +31,14 @@ h1 {
   margin: 0 0 20px 0;
 }
 
-/* line 66, style.sass */
+/* line 68, style.sass */
 h2 {
   color: #610000;
   padding: 10px 0;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-/* line 71, style.sass */
+/* line 73, style.sass */
 .btn {
   background: #002a78;
   background: #002a78;
@@ -57,12 +59,12 @@ h2 {
   padding: 10px;
 }
 @media (min-width: 1200px) {
-  /* line 71, style.sass */
+  /* line 73, style.sass */
   .btn {
     margin: 30px auto 0 80px;
   }
 }
-/* line 92, style.sass */
+/* line 94, style.sass */
 .btn:hover, .btn:active, .btn:focus {
   background: #003cab;
   border-style: Solid;
@@ -70,22 +72,22 @@ h2 {
   border-width: 2px;
 }
 
-/* line 99, style.sass */
+/* line 101, style.sass */
 ::-webkit-input-placeholder {
   color: #610000 !important;
 }
 
-/* line 102, style.sass */
+/* line 104, style.sass */
 :-moz-placeholder {
   color: #610000 !important;
 }
 
-/* line 105, style.sass */
+/* line 107, style.sass */
 ::-moz-placeholder {
   color: #610000 !important;
 }
 
-/* line 108, style.sass */
+/* line 110, style.sass */
 :-ms-input-placeholder {
   color: #610000 !important;
 }
@@ -95,7 +97,7 @@ h2 {
  * 						Adjustments
  *
  * =========================================================================================== */
-/* line 120, style.sass */
+/* line 122, style.sass */
 .container {
   max-width: 850px;
 }
