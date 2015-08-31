@@ -109,7 +109,10 @@ h2 {
  * =========================================================================================== */
 /* line 131, style.sass */
 .tagline {
-  width: 850px;
+  max-width: 30em;
+  margin: 0 auto;
+  clear: both;
+  width: 90%;
 }
 
 /* ===========================================================================================
@@ -117,7 +120,7 @@ h2 {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 142, style.sass */
+/* line 145, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -126,7 +129,7 @@ footer .container {
   color: white;
   vertical-align: middle;
 }
-/* line 149, style.sass */
+/* line 152, style.sass */
 footer .container p {
   text-align: center;
   color: white;
