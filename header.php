@@ -20,7 +20,7 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
     <div class="container">   
         <div class="row">  
             <div class="col col-sm-12 col-md-12"> 
-                <img alt="" src="images/header-banner.jpg">
+                <img alt="" src="images/header-banner.jpg" class="img-responsive">
             </div><!-- /.col12-->
         </div><!-- /.row -->
     </div><!-- /.container -->    
