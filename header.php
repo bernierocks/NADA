@@ -20,6 +20,9 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
     <div class="container">   
        <div class="row">  
         <img alt="" src="images/header-banner.jpg" class="img-responsive">
+            <div id="main-menu" class="hidden-xs	hidden-sm">
+                <? echo quick_menu(); ?>
+            </div><!-- /.main-menu -->
         </div><!-- /.row -->
     </div><!-- /.container -->    
 </header><!-- /header -->
