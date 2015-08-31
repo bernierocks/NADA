@@ -4,7 +4,7 @@ $site_is_a_redesign		= true;			//T or F - if they're a client of ours who is red
 $redesign_menu_addon	= ''; 	//When doing a redesign, give this the name of the redesign folder. If not a redesign, use ''.
 
 $org_id					= 'NADA';
-$their_domain 			= 'www.ncadsa.org';
+$their_domain 			= 'www.ncadsa.org/redesign/';
 $server_name 			= 'memberleap.com'; //viethconsulting.com for old clients, memberleap.com for new clients
 $host_number 			= '7';  //as in, "host7.viethwebhosting.com...".  ONLY MATTERS ON NEW CLIENTS- all new clients will be 7 for now
 $contact_email 			= ''; //For contact_us.php
