@@ -18,10 +18,8 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
 
 <header>   
     <div class="container">   
-        <div class="row">  
-            <div class="col col-sm-12 col-md-12"> 
-                <img alt="" src="images/header-banner.jpg" class="img-responsive">
-            </div><!-- /.col12-->
+       <div class="row">  
+        <img alt="" src="images/header-banner.jpg" class="img-responsive">
         </div><!-- /.row -->
     </div><!-- /.container -->    
 </header><!-- /header -->
