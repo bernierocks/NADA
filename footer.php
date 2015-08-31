@@ -16,10 +16,3 @@
 
 
 
-
-<script>
-$("document").ready(function() {
-    $(".tagline p").fitText(1, { minFontSize: '3px', maxFontSize: '12px' });
-});
-   
-</script>
