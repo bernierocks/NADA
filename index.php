@@ -12,6 +12,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
         <div class="col col-sm-12 col-md-4 sidebar"> 
             
             <div class="login">
+               <h2>Member Login</h2>
                 <? echo log_in_form(); ?>         
                     
             </div><!-- /.login -->

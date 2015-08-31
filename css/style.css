@@ -119,13 +119,19 @@ h2 {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+/* line 147, style.sass */
+.sidebar .login h2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #018c76;
+}
 
 /* ===========================================================================================
  *
  * 						Footer
  *
  * =========================================================================================== */
-/* line 154, style.sass */
+/* line 160, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -134,7 +140,7 @@ footer .container {
   color: white;
   vertical-align: middle;
 }
-/* line 161, style.sass */
+/* line 167, style.sass */
 footer .container p {
   text-align: center;
   color: white;
