@@ -110,6 +110,7 @@ h2 {
 /* line 131, style.sass */
 .tagline {
   max-width: 850px;
+  width: 100%;
   display: inline-block;
 }
 
@@ -118,7 +119,7 @@ h2 {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 143, style.sass */
+/* line 144, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -127,7 +128,7 @@ footer .container {
   color: white;
   vertical-align: middle;
 }
-/* line 150, style.sass */
+/* line 151, style.sass */
 footer .container p {
   text-align: center;
   color: white;

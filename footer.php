@@ -19,7 +19,7 @@
 
 <script>
 $("document").ready(function() {
-    $("#tagline p").fitText();
+    $(".tagline p").fitText();
 });
    
 </script>
