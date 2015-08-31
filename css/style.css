@@ -123,3 +123,7 @@ h2 {
   color: white;
   vertical-align: middle;
 }
+/* line 147, style.sass */
+#footer p {
+  text-align: center;
+}
