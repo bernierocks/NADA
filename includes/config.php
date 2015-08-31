@@ -16,7 +16,7 @@ $google_search_code 	= '012339061281107249266:5hl5506mftg';
 
 $functions = array(
 	//PHP and Server Side Functions
-	'mobile_menu.php'		=> true,
+	'mobile_menu.php'		=> true, 
 	'input_shortener.php' 	=> true,
 	'menus.php'				=> true,
 	'slideshows.php' 		=> true,
