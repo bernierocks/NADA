@@ -100,6 +100,7 @@ h2 {
   max-width: 850px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.75);
   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+  background-color: white;
 }
 
 /* ===========================================================================================
@@ -112,7 +113,7 @@ h2 {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 139, style.sass */
+/* line 140, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -121,7 +122,7 @@ footer .container {
   color: white;
   vertical-align: middle;
 }
-/* line 146, style.sass */
+/* line 147, style.sass */
 footer .container p {
   text-align: center;
   color: white;
