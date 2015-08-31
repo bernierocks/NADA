@@ -2,7 +2,7 @@
 <!-- Google Fonts -->
 <!-- When adding a google font, be sure to remove the HTTP: from the URL.  
 	 This will allow us to switch between HTTP and HTTPS -->
-<link href='//fonts.googleapis.com/css?family=Marcellus|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
 
 
 <?
@@ -20,7 +20,7 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
     <div class="container">   
        <div class="row">  
         <img alt="" src="<?=$base;?>images/header-banner.jpg" class="img-responsive">
-           <p>
+           <p id="tagline">
                Promoting the availability, accessibility, cost effectiveness and quality of adult day services in North Carolina
            </p>
             <div id="main-menu" class="hidden-xs	hidden-sm">
