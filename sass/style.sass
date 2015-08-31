@@ -1,0 +1,128 @@
+// Mixins
+=breakpoint($point)
+    @if $point == md
+        @media (min-width: 1200px)
+            @content
+    @if $point == sm
+        @media (max-width: 1195px)
+            @content
+    @if $point == xs
+        @media (max-width: 480px)
+            @content    
+ 
+
+=bcbreakpoint($min:0, $max:0)
+    $type: type-of($min)
+    @if $type == number
+        $query: "all" !default
+        @if $min != 0 and $max != 0
+            $query: "(min-width: #{$min}) and (max-width: #{$max})"
+        @else if $min != 0 and $max == 0 
+            $query: "(min-width: #{$min})"
+        @else if $min == 0 and $max != 0
+            $query: "(max-width: #{$max})"
+        @media #{$query}
+            @content
+
+            
+=shadow-this
+    box-shadow : 0px 0px 25px rgba(0, 0, 0, 0.25)
+    filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000') 
+    
+=transition
+    -webkit-transition: all 0.3s ease
+    -moz-transition: all 0.3s ease
+    -o-transition: all 0.3s ease   
+    -ms-transition: all 0.3s ease
+    transition: all 0.3s ease
+    transition: all 0.2s ease, padding 0.8s linear
+
+
+/* 
+    ===========================================================================================
+
+    						Global Styles
+
+    ===========================================================================================
+
+
+*
+    text-rendering: optimizeLegibility
+
+
+body 
+    background-color: #fff
+    color: #222222
+    
+p
+    font-family: 'Open Sans', sans-serif
+    font-size : 17px
+    color : #610000
+h1
+    font-family: Georgia, Times, 'Times New Roman', serif
+    font-size : 30px
+    color : #610000
+    margin: 0 0 20px 0
+h2
+    color: #610000
+    padding: 10px 0
+    font-family: Georgia, Times, 'Times New Roman', serif
+    
+.btn
+    background : #002A78
+    background : rgba(0, 42, 120, 1)
+    border-style : Solid
+    border-color : #FFFFFF
+    border-color : rgba(255, 255, 255, 1)
+    border-width : 2px
+    border-radius : 0px
+    -moz-border-radius : 0px
+    -webkit-border-radius : 0px
+    font-size: 24px
+    font-family: 'Open Sans', sans-serif
+    width: 100%
+    max-width: 272px
+    border-radius: 8px
+    margin: 30px auto 0
+    display: block
+    padding: 10px
+    +breakpoint(md)
+        margin: 30px auto 0 80px
+    
+    &:hover, &:active,  &:focus
+        background : lighten(#002A78, 10%)
+        border-style : Solid
+        border-color : rgba(255, 255, 255, 1)
+        border-width : 2px    
+    
+    
+\::-webkit-input-placeholder
+    color: #610000 !important
+
+\:-moz-placeholder 
+    color: #610000 !important
+
+\::-moz-placeholder
+    color: #610000 !important
+
+\:-ms-input-placeholder
+    color: #610000 !important
+
+
+/* 
+    ===========================================================================================
+
+    						Adjustments
+
+    ===========================================================================================
+
+
+.container
+    max-width:  850px
+
+/* 
+    ===========================================================================================
+
+    						Header
+
+    ===========================================================================================
