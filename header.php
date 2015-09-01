@@ -26,6 +26,14 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
             <div id="main-menu" class="hidden-xs	hidden-sm">
                 <? echo quick_menu(); ?>
             </div><!-- /.main-menu -->
+            
+            <div id="mobile-menu-col">
+                    
+                <div id="mobile-toggle" class="mobileMenuTrigger hidden-md hidden-lg">
+                    <img alt="" src="<?=$base;?>images/menu.svg">
+                </div>
+            </div><!-- end of #mobile-menu-col --> 
+
         </div><!-- /.row -->
     </div><!-- /.container -->    
 </header><!-- /header -->
