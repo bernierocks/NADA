@@ -25,6 +25,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
                     <img src="images/logo_ncadsa.jpg">
                 </a>
                 
+                <p>State Association Partner</p>
             </div><!-- /.sponsors -->
         </div><!-- /.col4-->
     </div><!-- /.row -->
