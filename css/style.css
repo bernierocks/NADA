@@ -144,7 +144,7 @@ h2 {
   color: #018c76;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
-/* line 168, style.sass */
+/* line 169, style.sass */
 .sidebar .calendar {
   margin-top: 17px;
 }
@@ -154,7 +154,7 @@ h2 {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 178, style.sass */
+/* line 180, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -163,7 +163,7 @@ footer .container {
   color: white;
   vertical-align: middle;
 }
-/* line 185, style.sass */
+/* line 187, style.sass */
 footer .container p {
   text-align: center;
   color: white;
