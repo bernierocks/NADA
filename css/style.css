@@ -123,22 +123,32 @@ h2 {
 
 /* ===========================================================================================
  *
+ * 						Main Content
+ *
+ * ===========================================================================================             */
+/* line 157, style.sass */
+.bc-maincontent {
+  padding-top: 25px;
+}
+
+/* ===========================================================================================
+ *
  * 						Sidebar
  *
  * =========================================================================================== */
-/* line 155, style.sass */
+/* line 168, style.sass */
 .sidebar {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-/* line 159, style.sass */
+/* line 172, style.sass */
 .sidebar .login, .sidebar .calendar {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
   margin-top: 17px;
 }
-/* line 164, style.sass */
+/* line 177, style.sass */
 .sidebar .login h2, .sidebar .calendar h2 {
   font-size: 14px;
   font-weight: bold;
@@ -151,7 +161,7 @@ h2 {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 179, style.sass */
+/* line 192, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -160,7 +170,7 @@ footer .container {
   color: white;
   vertical-align: middle;
 }
-/* line 186, style.sass */
+/* line 199, style.sass */
 footer .container p {
   text-align: center;
   color: white;
