@@ -142,6 +142,7 @@ h2 {
   font-size: 14px;
   font-weight: bold;
   color: #018c76;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
 /* ===========================================================================================
@@ -149,7 +150,7 @@ h2 {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 176, style.sass */
+/* line 177, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -158,7 +159,7 @@ footer .container {
   color: white;
   vertical-align: middle;
 }
-/* line 183, style.sass */
+/* line 184, style.sass */
 footer .container p {
   text-align: center;
   color: white;
