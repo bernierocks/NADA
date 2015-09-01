@@ -173,18 +173,138 @@ a {
   display: none;
 }
 
+/* line 188, style.sass */
+#mobile-toggle img {
+  width: 32px;
+}
+
+/* line 192, style.sass */
+.modal-body {
+  position: relative;
+  padding: 20px 20px 40px;
+}
+
+/* line 196, style.sass */
+#mobileMenuWrapper {
+  height: 100vh;
+  position: fixed;
+  top: -1px;
+  bottom: 0px;
+  z-index: 100;
+  overflow-y: auto;
+  overflow-x: hidden;
+  left: -120%;
+  width: 225px;
+  max-width: 100%;
+  background-color: #5f0c0c;
+  transition: all 300ms cubic-bezier(1, 0.01, 0, 1) 0s;
+}
+
+/* line 209, style.sass */
+#mobileMenuWrapper.open {
+  left: 0px;
+  bottom: 0px;
+}
+
+/* line 213, style.sass */
+#mobileMenuWrapper #mobile-menu {
+  overflow: auto;
+  padding: 0px 20px 10px;
+}
+/* line 216, style.sass */
+#mobileMenuWrapper #mobile-menu > li#triggerClose {
+  color: white;
+  float: right;
+  display: inline;
+  font-size: 22px;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+/* line 223, style.sass */
+#mobileMenuWrapper #mobile-menu a {
+  width: 100%;
+  color: white;
+  display: inline-block;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  padding: 8px 10px;
+}
+/* line 230, style.sass */
+#mobileMenuWrapper #mobile-menu a:hover {
+  background-color: #003cab;
+  text-decoration: none;
+}
+/* line 233, style.sass */
+#mobileMenuWrapper ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+/* line 238, style.sass */
+#mobileMenuWrapper ul.mDropdown {
+  margin: 0 15px;
+  display: none;
+}
+
+/* line 241, style.sass */
+#mobile-toggle {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+/* line 246, style.sass */
+#mobile-menu-col {
+  top: 13px;
+  right: 20px;
+  float: right;
+  position: relative;
+  margin-right: -14px;
+}
+@media (min-width: 722px) and (max-width: 991px) {
+  /* line 246, style.sass */
+  #mobile-menu-col {
+    margin-top: -29px;
+  }
+}
+@media (min-width: 395px) and (max-width: 721px) {
+  /* line 246, style.sass */
+  #mobile-menu-col {
+    margin-top: -101px;
+  }
+}
+
+/* line 256, style.sass */
+#mobile-logo {
+  width: 40%;
+  float: left;
+  margin-top: 27px;
+  margin-bottom: 20px;
+}
+/* line 261, style.sass */
+#mobile-logo a {
+  margin: 0 !important;
+}
+/* line 263, style.sass */
+#mobile-logo svg#logo {
+  width: 250px;
+  max-width: 250px;
+}
+
 /* ===========================================================================================
  *
  * 						Main Content
  *
  * ===========================================================================================             */
-/* line 193, style.sass */
+/* line 275, style.sass */
 .bc-maincontent {
   padding-top: 25px;
   padding-bottom: 65px;
 }
 @media (min-width: 991px) {
-  /* line 193, style.sass */
+  /* line 275, style.sass */
   .bc-maincontent {
     padding-left: 30px;
   }
@@ -195,35 +315,35 @@ a {
  * 						Sidebar
  *
  * =========================================================================================== */
-/* line 206, style.sass */
+/* line 288, style.sass */
 .sidebar {
   padding-top: 8px;
   padding-bottom: 25px;
 }
-/* line 210, style.sass */
+/* line 292, style.sass */
 .sidebar .login, .sidebar .calendar {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
   margin-top: 17px;
 }
-/* line 215, style.sass */
+/* line 297, style.sass */
 .sidebar .login h2, .sidebar .calendar h2 {
   font-size: 14px;
   font-weight: bold;
   color: #018c76;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
-/* line 221, style.sass */
+/* line 303, style.sass */
 .sidebar .login h2 {
   margin-bottom: 15px;
 }
-/* line 223, style.sass */
+/* line 305, style.sass */
 .sidebar .sponsors {
   text-align: center;
   margin-top: 15px;
 }
-/* line 227, style.sass */
+/* line 309, style.sass */
 .sidebar input[type="text"], .sidebar input[type="password"] {
   width: 100%;
   margin-bottom: 10px;
@@ -237,11 +357,11 @@ a {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 241, style.sass */
+/* line 323, style.sass */
 footer {
   margin-bottom: 30px;
 }
-/* line 244, style.sass */
+/* line 326, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -251,7 +371,7 @@ footer .container {
   vertical-align: middle;
   box-shadow: 0px 5px 38px rgba(0, 0, 0, 0.4);
 }
-/* line 252, style.sass */
+/* line 334, style.sass */
 footer .container p {
   text-align: center;
   color: white;
