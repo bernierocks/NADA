@@ -49,8 +49,9 @@ include('includes/functions.php');
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		
 		<!-- Our style sheets -->
-		<link rel="stylesheet" type="text/css" href="<?=$base;?>css/style.css?combobreaker=1" />
+		
 		<link rel="stylesheet" type="text/css" href="<?=$base;?>css/navigation.css" />
+		<link rel="stylesheet" type="text/css" href="<?=$base;?>css/style.css?combobreaker=1" />
 		<link rel="stylesheet" type="text/css" href="<?=$base;?>css/media_query.css" /><!-- Always Load Last -->
 		<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
