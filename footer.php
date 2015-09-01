@@ -21,6 +21,6 @@
         
         $(".t").hover(function(){
           $(this).toggleClass("open");
-        });
+        });  
     });
 </script>
