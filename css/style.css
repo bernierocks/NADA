@@ -166,17 +166,21 @@ h2 {
   text-align: center;
   margin-top: 15px;
 }
+/* line 188, style.sass */
+.sidebar input[type="text"] {
+  width: 100%;
+}
 
 /* ===========================================================================================
  *
  * 						Footer
  *
  * =========================================================================================== */
-/* line 196, style.sass */
+/* line 198, style.sass */
 footer {
   margin-bottom: 30px;
 }
-/* line 199, style.sass */
+/* line 201, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -186,7 +190,7 @@ footer .container {
   vertical-align: middle;
   box-shadow: 0px 5px 38px rgba(0, 0, 0, 0.4);
 }
-/* line 207, style.sass */
+/* line 209, style.sass */
 footer .container p {
   text-align: center;
   color: white;
