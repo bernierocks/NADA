@@ -15,4 +15,6 @@
 </footer><!-- /footer -->
 
 
-
+<script>
+    $("#login input[type='submit']").attr('value', 'Log in'); 
+</script>
