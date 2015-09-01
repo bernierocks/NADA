@@ -21,4 +21,16 @@
             $( this ).toggleClass( "open" );
           }
         );
+    
+    
+        $("#mobile-toggle").click(function(){
+          $("#mobileMenuWrapper").toggleClass("open");
+        });
+
+            $("#triggerClose").click(function(){
+          $("#mobileMenuWrapper").removeClass("open");
+        });
+
+
+    
 </script>
