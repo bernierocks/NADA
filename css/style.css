@@ -132,13 +132,13 @@ h2 {
   padding-bottom: 25px;
 }
 /* line 159, style.sass */
-.sidebar .login {
+.sidebar .login, .sidebar .calendar {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
 }
 /* line 163, style.sass */
-.sidebar .login h2 {
+.sidebar .login h2, .sidebar .calendar h2 {
   font-size: 14px;
   font-weight: bold;
   color: #018c76;
