@@ -336,7 +336,7 @@ a {
 @media (max-width: 480px) {
   /* line 298, style.sass */
   .bc-maincontent > div:nth-child(1) {
-    text-align: left;
+    text-align: left !important;
   }
 }
 
