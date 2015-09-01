@@ -143,12 +143,13 @@ hr {
 /* line 164, style.sass */
 .navbar-nav > li > .dropdown-menu {
   background: #6a6a6a;
+  padding: 0;
 }
-/* line 166, style.sass */
+/* line 167, style.sass */
 .navbar-nav > li > .dropdown-menu li {
   border-bottom: 1px solid #003300;
 }
-/* line 168, style.sass */
+/* line 169, style.sass */
 .navbar-nav > li > .dropdown-menu a {
   font-size: 11px;
   color: white;
@@ -160,13 +161,13 @@ hr {
  * 						Main Content
  *
  * ===========================================================================================             */
-/* line 180, style.sass */
+/* line 181, style.sass */
 .bc-maincontent {
   padding-top: 25px;
   padding-bottom: 65px;
 }
 @media (min-width: 991px) {
-  /* line 180, style.sass */
+  /* line 181, style.sass */
   .bc-maincontent {
     padding-left: 30px;
   }
@@ -177,35 +178,35 @@ hr {
  * 						Sidebar
  *
  * =========================================================================================== */
-/* line 193, style.sass */
+/* line 194, style.sass */
 .sidebar {
   padding-top: 8px;
   padding-bottom: 25px;
 }
-/* line 197, style.sass */
+/* line 198, style.sass */
 .sidebar .login, .sidebar .calendar {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
   margin-top: 17px;
 }
-/* line 202, style.sass */
+/* line 203, style.sass */
 .sidebar .login h2, .sidebar .calendar h2 {
   font-size: 14px;
   font-weight: bold;
   color: #018c76;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
-/* line 208, style.sass */
+/* line 209, style.sass */
 .sidebar .login h2 {
   margin-bottom: 15px;
 }
-/* line 210, style.sass */
+/* line 211, style.sass */
 .sidebar .sponsors {
   text-align: center;
   margin-top: 15px;
 }
-/* line 214, style.sass */
+/* line 215, style.sass */
 .sidebar input[type="text"], .sidebar input[type="password"] {
   width: 100%;
   margin-bottom: 10px;
@@ -219,11 +220,11 @@ hr {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 228, style.sass */
+/* line 229, style.sass */
 footer {
   margin-bottom: 30px;
 }
-/* line 231, style.sass */
+/* line 232, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -233,7 +234,7 @@ footer .container {
   vertical-align: middle;
   box-shadow: 0px 5px 38px rgba(0, 0, 0, 0.4);
 }
-/* line 239, style.sass */
+/* line 240, style.sass */
 footer .container p {
   text-align: center;
   color: white;
