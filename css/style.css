@@ -157,7 +157,7 @@ a {
 }
 /* line 173, style.sass */
 .navbar-nav > li > .dropdown-menu li:nth-last-child {
-  border-bottom: none;
+  border-bottom: 1px solid transparent;
 }
 /* line 175, style.sass */
 .navbar-nav > li > .dropdown-menu a {
