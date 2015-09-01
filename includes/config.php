@@ -1,6 +1,6 @@
 <?
 $site_is_live             = false;
-$site_is_a_redesign        = false;            //T or F - if they're a client of ours who is redesigning.  If True, fill out the next line.
+$site_is_a_redesign        = true;            //T or F - if they're a client of ours who is redesigning.  If True, fill out the next line.
 $redesign_menu_addon    = '';     //When doing a redesign, give this the name of the redesign folder. If not a redesign, use ''.
 
 $org_id                    = 'NADA';
