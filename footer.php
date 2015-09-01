@@ -17,8 +17,10 @@
     $("document").ready(function() {
         $(".login input[type='submit']").attr('value', 'Log in'); 
         
-        $(".t").hover(function(){
-          $(this).toggleClass("open");
-        });  
+        $( ".t" ).hover(
+          function() {
+            $( this ).toggleClass( "open" );
+                    }
+        );
     });
 </script>
