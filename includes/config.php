@@ -1,33 +1,33 @@
 <?
-$site_is_live             = false;
-$site_is_a_redesign        = true;            //T or F - if they're a client of ours who is redesigning.  If True, fill out the next line.
-$redesign_menu_addon    = '';     //When doing a redesign, give this the name of the redesign folder. If not a redesign, use ''.
+$site_is_live 			= false;
+$site_is_a_redesign		= true;			//T or F - if they're a client of ours who is redesigning.  If True, fill out the next line.
+$redesign_menu_addon	= 'redesign'; 	//When doing a redesign, give this the name of the redesign folder. If not a redesign, use ''.
+$redesign_use_main_menu = true;			//T or F - If you'd like to use the regular menu when doing a redesign, set this to true.  If you've created a new menu (v_menuredesign.json) set this to false.
 
-$org_id                    = 'NADA';
-$their_domain             = 'ncadsa.org';
-$server_name             = 'viethconsulting.com'; //viethconsulting.com for old clients, memberleap.com for new clients
-$host_number             = '2';  //as in, "host7.viethwebhosting.com...".  ONLY MATTERS ON NEW CLIENTS- all new clients will be 7 for now
-$contact_email             = 'ncadultdayservices@gmail.com'; //For contact_us.php
-$org_name                 = 'North Cardina Adult Day Services Association'; //Proper name for page title 
-$ucc                     = false; //for when someone has mms.theirdomainname.com...
+$org_id					= 'NADA';
+$their_domain 			= 'ncadsa.org';
+$server_name 			= 'viethconsulting.com'; //viethconsulting.com for old clients, memberleap.com for new clients
+$host_number 			= '2';  //as in, "host7.viethwebhosting.com...".  ONLY MATTERS ON NEW CLIENTS- all new clients will be 7 for now
+$contact_email 			= 'ncadultdayservices@gmail.com'; //For contact_us.php
+$org_name 				= 'North Cardina Adult Day Services Association'; //Proper name for page title 
+$ucc 					= false; //for when someone has mms.theirdomainname.com...
 
 //Google stuff
 $google_search_code 	= '010563352096309179583:hva2bbkg28a';
-
 $functions = array(
 	//PHP and Server Side Functions
-	'mobile_menu.php'		=> true,  
-	'input_shortener.php' 	=> true,
+	'mobile_menu.php'		=> true,
+	'input_shortener.php' 	=> false,
 	'menus.php'				=> true,
 	'slideshows.php' 		=> true,
 	'svg_icons.php' 		=> true,
-	'log_in_form.php'		=> true, 
+	'log_in_form.php'		=> true,
 	'news_feed.php'			=> true,
 	'event_feed.php'		=> true,
-	'rss_news_feed.php'		=> true,
+	'rss_news_feed.php'		=> false,
 	'sidebars.php'			=> false,
 	'search_box.php'		=> true,
-	'dayCountdown.php'		=> true,
+	'dayCountdown.php'		=> false,
 	
 	//Javascript Fixer Functions
 	
@@ -41,11 +41,11 @@ $functions = array(
 );
 
 $news_options = array(
-	'number_of_news_items'	=>	'5',				//# or F - #: Sets the amount of events to display; F: no limit - show all upcoming events
-	'desc_text_limit'		=>	'130', 				//# or F - Sets the amount of characters for the description, or false for no limit
+	'number_of_news_items'	=>	'2',				//# or F - #: Sets the amount of events to display; F: no limit - show all upcoming events
+	'desc_text_limit'		=>	'160', 				//# or F - Sets the amount of characters for the description, or false for no limit
 	'desc_text_hard_break'	=>	false,				//T or F - T: breaks description exactly at limit; F: breaks description after space following limit
-	'desc_strip_tags'		=>	true,				//T or F - T: Strips everything except <br>; F: gives raw description
-	'read_more_link'		=>	'Read more',				//String or F - Sets the text for the "more" button; F: does not show a "read more" button/link
+	'desc_strip_tags'		=>	false,				//T or F - T: Strips everything except <br>; F: gives raw description
+	'read_more_link'		=>	'More >>',				//String or F - Sets the text for the "more" button; F: does not show a "read more" button/link
 	'title_as_link'			=>	true,				//T or F - Display the title as a link
 	'open_links_in_new_tab'	=>	true,				//T or F - T: Opens title and "more" links in new tab, F: opens title/"more" links in current tab
 	'format_month'			=>	'F',				//See PHP's date() functionality
@@ -57,12 +57,12 @@ $news_options = array(
 );
 
 $event_options = array(
-	'number_of_events'		=>	'2',				//# or F - #: Sets the amount of events to display; F: no limit - show all upcoming events
+	'number_of_events'		=>	'26',				//# or F - #: Sets the amount of events to display; F: no limit - show all upcoming events
 	'desc_text_limit'		=>	'100', 				//# or F - Sets the amount of characters for the description, or false for no limit
 	'desc_text_hard_break'	=>	false,				//T or F - T: breaks description exactly at limit; F: breaks description after space following limit
 	'desc_strip_tags'		=>	true,				//T or F - T: Strips everything except <br>; F: gives raw description
 	'read_more_link'		=>	false,		//T or F - Turns the default Read More link on or off
-	'read_more_label'		=> 'Read More',		//String - Sets the display text for the read more link.
+	'read_more_label'		=> 'more info...',		//String - Sets the display text for the read more link.
 	'title_as_link'			=>	true,				//T or F - Display the title as a link
 	'open_links_in_new_tab'	=>	false,				//T or F - T: Opens title and "more" links in new tab, F: opens title/"more" links in current tab
 	'format_month'			=>	'M',				//See PHP's date() functionality
@@ -81,16 +81,15 @@ $PTR = '/home/'.$lc_org_id.'/public_html/';
 if($host_number<5){
 	$host = '';
 } else {
-	$host = 'host'.$host_number.'.';
+	$host = $host_number.'.';
 }
+
+//all about that base
 $ssl_base = 'https://'.$host.'viethwebhosting.com/~'.$lc_org_id.'/';
 $base = 'http://'.$host.'viethwebhosting.com/~'.$lc_org_id.'/';
-//$no_http_base = substr($base, strpos($base,':')+1).'/';
-if(isset($_SERVER['HTTPS'])){
-	$base = $ssl_base;
-}
 if($site_is_a_redesign == true){
-	$base = '//'.$their_domain.'/'.$redesign_menu_addon.'/';
+	$base 		= 'http://'.$their_domain.'/'.$redesign_menu_addon.'/';
+	$ssl_base 	= 'https://'.$their_domain.'/'.$redesign_menu_addon.'/';
 }
 if($site_is_live){
 	if(isset($_SERVER['HTTPS'])){
@@ -99,6 +98,11 @@ if($site_is_live){
 		$base = 'http://'.$their_domain.'/';
 	}
 }
+if(isset($_SERVER['HTTPS'])){
+	$base = $ssl_base;
+}
+
+//domain and server name items
 if($site_is_live == true || $site_is_a_redesign == true){
 	$domain = $their_domain; 
 	if($site_is_a_redesign){
@@ -108,7 +112,7 @@ if($site_is_live == true || $site_is_a_redesign == true){
 	$domain = $host.'viethwebhosting.com/~'.$lc_org_id;
 }
 if($ucc == true){
-	$server_name = 'mms.'.$domain;
+	$server_name = 'mms.'.$their_domain;
 }
 if($site_is_live == true && $site_is_a_redesign == false){
 	$redesign_menu_addon = '';
