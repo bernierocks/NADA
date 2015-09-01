@@ -276,25 +276,31 @@ a {
     margin-top: -48px;
   }
 }
+@media (max-width: 394px) {
+  /* line 247, style.sass */
+  #mobile-menu-col {
+    margin-top: -46px;
+  }
+}
 
-/* line 257, style.sass */
+/* line 260, style.sass */
 #mobile-logo {
   width: 40%;
   float: left;
   margin-top: 27px;
   margin-bottom: 20px;
 }
-/* line 262, style.sass */
+/* line 265, style.sass */
 #mobile-logo a {
   margin: 0 !important;
 }
-/* line 264, style.sass */
+/* line 267, style.sass */
 #mobile-logo svg#logo {
   width: 250px;
   max-width: 250px;
 }
 
-/* line 270, style.sass */
+/* line 273, style.sass */
 #mobile-toggle {
   padding: 7px 7px 3px;
   border-radius: 4px;
@@ -308,13 +314,13 @@ a {
  * 						Main Content
  *
  * ===========================================================================================             */
-/* line 285, style.sass */
+/* line 288, style.sass */
 .bc-maincontent {
   padding-top: 25px;
   padding-bottom: 65px;
 }
 @media (min-width: 991px) {
-  /* line 285, style.sass */
+  /* line 288, style.sass */
   .bc-maincontent {
     padding-left: 30px;
   }
@@ -325,35 +331,35 @@ a {
  * 						Sidebar
  *
  * =========================================================================================== */
-/* line 298, style.sass */
+/* line 301, style.sass */
 .sidebar {
   padding-top: 8px;
   padding-bottom: 25px;
 }
-/* line 302, style.sass */
+/* line 305, style.sass */
 .sidebar .login, .sidebar .calendar {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
   margin-top: 17px;
 }
-/* line 307, style.sass */
+/* line 310, style.sass */
 .sidebar .login h2, .sidebar .calendar h2 {
   font-size: 14px;
   font-weight: bold;
   color: #018c76;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
-/* line 313, style.sass */
+/* line 316, style.sass */
 .sidebar .login h2 {
   margin-bottom: 15px;
 }
-/* line 315, style.sass */
+/* line 318, style.sass */
 .sidebar .sponsors {
   text-align: center;
   margin-top: 15px;
 }
-/* line 319, style.sass */
+/* line 322, style.sass */
 .sidebar input[type="text"], .sidebar input[type="password"] {
   width: 100%;
   margin-bottom: 10px;
@@ -367,11 +373,11 @@ a {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 333, style.sass */
+/* line 336, style.sass */
 footer {
   margin-bottom: 30px;
 }
-/* line 336, style.sass */
+/* line 339, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -381,7 +387,7 @@ footer .container {
   vertical-align: middle;
   box-shadow: 0px 5px 38px rgba(0, 0, 0, 0.4);
 }
-/* line 344, style.sass */
+/* line 347, style.sass */
 footer .container p {
   text-align: center;
   color: white;
