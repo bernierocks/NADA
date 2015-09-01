@@ -149,6 +149,7 @@ hr {
   font-size: 11px;
   color: white;
   text-align: left;
+  border: 1px solid #003300;
 }
 
 /* ===========================================================================================
@@ -156,13 +157,13 @@ hr {
  * 						Main Content
  *
  * ===========================================================================================             */
-/* line 177, style.sass */
+/* line 178, style.sass */
 .bc-maincontent {
   padding-top: 25px;
   padding-bottom: 65px;
 }
 @media (min-width: 991px) {
-  /* line 177, style.sass */
+  /* line 178, style.sass */
   .bc-maincontent {
     padding-left: 30px;
   }
@@ -173,35 +174,35 @@ hr {
  * 						Sidebar
  *
  * =========================================================================================== */
-/* line 190, style.sass */
+/* line 191, style.sass */
 .sidebar {
   padding-top: 8px;
   padding-bottom: 25px;
 }
-/* line 194, style.sass */
+/* line 195, style.sass */
 .sidebar .login, .sidebar .calendar {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
   margin-top: 17px;
 }
-/* line 199, style.sass */
+/* line 200, style.sass */
 .sidebar .login h2, .sidebar .calendar h2 {
   font-size: 14px;
   font-weight: bold;
   color: #018c76;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
-/* line 205, style.sass */
+/* line 206, style.sass */
 .sidebar .login h2 {
   margin-bottom: 15px;
 }
-/* line 207, style.sass */
+/* line 208, style.sass */
 .sidebar .sponsors {
   text-align: center;
   margin-top: 15px;
 }
-/* line 211, style.sass */
+/* line 212, style.sass */
 .sidebar input[type="text"], .sidebar input[type="password"] {
   width: 100%;
   margin-bottom: 10px;
@@ -215,11 +216,11 @@ hr {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 225, style.sass */
+/* line 226, style.sass */
 footer {
   margin-bottom: 30px;
 }
-/* line 228, style.sass */
+/* line 229, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -229,7 +230,7 @@ footer .container {
   vertical-align: middle;
   box-shadow: 0px 5px 38px rgba(0, 0, 0, 0.4);
 }
-/* line 236, style.sass */
+/* line 237, style.sass */
 footer .container p {
   text-align: center;
   color: white;
