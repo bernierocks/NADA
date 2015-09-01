@@ -16,5 +16,5 @@
 
 
 <script>
-    $("#login input[type='submit']").attr('value', 'Log in'); 
+    $(".login input[type='submit']").attr('value', 'Log in'); 
 </script>
