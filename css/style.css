@@ -146,7 +146,7 @@ hr {
 }
 /* line 166, style.sass */
 .navbar-nav > li > .dropdown-menu li {
-  border: 1px solid #003300;
+  border-bottom: 1px solid #003300;
 }
 /* line 168, style.sass */
 .navbar-nav > li > .dropdown-menu a {
