@@ -30,7 +30,7 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
             <div id="mobile-menu-col">
                     
                 <div id="mobile-toggle" class="mobileMenuTrigger hidden-md hidden-lg">
-                    <img alt="" src="<?=$base;?>images/menu.svg">
+                    <?php readfile('images/menu.svg');?>
                 </div>
             </div><!-- end of #mobile-menu-col --> 
 
