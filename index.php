@@ -6,7 +6,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
 <div class="container">   
     <div class="row">  
         <div class="col col-sm-12 col-md-8">  
-        
+            <?php readfile('section_1.htm');?>        
 
         </div><!-- /.col8-->
         <div class="col col-sm-12 col-md-4 sidebar"> 
