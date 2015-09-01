@@ -346,35 +346,35 @@ a {
  *
  * =========================================================================================== */
 /* line 307, style.sass */
-.sidebar {
+.sidebar, .modal-body {
   padding-top: 8px;
   padding-bottom: 25px;
 }
 /* line 311, style.sass */
-.sidebar .login, .sidebar .calendar {
+.sidebar .login, .sidebar .calendar, .modal-body .login, .modal-body .calendar {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
   margin-top: 17px;
 }
 /* line 316, style.sass */
-.sidebar .login h2, .sidebar .calendar h2 {
+.sidebar .login h2, .sidebar .calendar h2, .modal-body .login h2, .modal-body .calendar h2 {
   font-size: 14px;
   font-weight: bold;
   color: #018c76;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 /* line 322, style.sass */
-.sidebar .login h2 {
+.sidebar .login h2, .modal-body .login h2 {
   margin-bottom: 15px;
 }
 /* line 324, style.sass */
-.sidebar .sponsors {
+.sidebar .sponsors, .modal-body .sponsors {
   text-align: center;
   margin-top: 15px;
 }
 /* line 328, style.sass */
-.sidebar input[type="text"], .sidebar input[type="password"] {
+.sidebar input[type="text"], .sidebar input[type="password"], .modal-body input[type="text"], .modal-body input[type="password"] {
   width: 100%;
   margin-bottom: 10px;
   padding: 5px;
