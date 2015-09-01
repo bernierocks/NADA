@@ -325,9 +325,11 @@ a {
     padding-left: 30px;
   }
 }
-/* line 295, style.sass */
-.bc-maincontent > div:nth-child(1) {
-  text-align: left;
+@media (max-width: 480px) {
+  /* line 295, style.sass */
+  .bc-maincontent > div:nth-child(1) {
+    text-align: left;
+  }
 }
 
 /* ===========================================================================================
