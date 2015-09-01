@@ -325,41 +325,45 @@ a {
     padding-left: 30px;
   }
 }
+/* line 295, style.sass */
+.bc-maincontent > div:nth-child(1) {
+  text-align: left;
+}
 
 /* ===========================================================================================
  *
  * 						Sidebar
  *
  * =========================================================================================== */
-/* line 301, style.sass */
+/* line 304, style.sass */
 .sidebar {
   padding-top: 8px;
   padding-bottom: 25px;
 }
-/* line 305, style.sass */
+/* line 308, style.sass */
 .sidebar .login, .sidebar .calendar {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
   margin-top: 17px;
 }
-/* line 310, style.sass */
+/* line 313, style.sass */
 .sidebar .login h2, .sidebar .calendar h2 {
   font-size: 14px;
   font-weight: bold;
   color: #018c76;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
-/* line 316, style.sass */
+/* line 319, style.sass */
 .sidebar .login h2 {
   margin-bottom: 15px;
 }
-/* line 318, style.sass */
+/* line 321, style.sass */
 .sidebar .sponsors {
   text-align: center;
   margin-top: 15px;
 }
-/* line 322, style.sass */
+/* line 325, style.sass */
 .sidebar input[type="text"], .sidebar input[type="password"] {
   width: 100%;
   margin-bottom: 10px;
@@ -373,11 +377,11 @@ a {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 336, style.sass */
+/* line 339, style.sass */
 footer {
   margin-bottom: 30px;
 }
-/* line 339, style.sass */
+/* line 342, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -387,7 +391,7 @@ footer .container {
   vertical-align: middle;
   box-shadow: 0px 5px 38px rgba(0, 0, 0, 0.4);
 }
-/* line 347, style.sass */
+/* line 350, style.sass */
 footer .container p {
   text-align: center;
   color: white;
