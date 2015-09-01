@@ -17,6 +17,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
                     
             </div><!-- /.login -->
             <div class="calendar">
+               <h2>Calendar</h2>
                 <?php readfile('/home/ncadsa/public_html/calNADA3.htm');?>       
             </div><!-- /.calendar -->
             <div class="sponsors">
