@@ -136,17 +136,14 @@ h2 {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
+  margin-top: 17px;
 }
-/* line 163, style.sass */
+/* line 164, style.sass */
 .sidebar .login h2, .sidebar .calendar h2 {
   font-size: 14px;
   font-weight: bold;
   color: #018c76;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-}
-/* line 169, style.sass */
-.sidebar .calendar {
-  margin-top: 17px;
 }
 
 /* ===========================================================================================
@@ -154,7 +151,7 @@ h2 {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 180, style.sass */
+/* line 179, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -163,7 +160,7 @@ footer .container {
   color: white;
   vertical-align: middle;
 }
-/* line 187, style.sass */
+/* line 186, style.sass */
 footer .container p {
   text-align: center;
   color: white;
