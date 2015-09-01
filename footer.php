@@ -13,8 +13,6 @@
     <p>© 2015 North Carolina Adult Day Services Association</p>
     </div><!-- /.container -->
 </footer><!-- /footer -->
-
-
 <script>
     $("document").ready(function() {
         $(".login input[type='submit']").attr('value', 'Log in'); 
