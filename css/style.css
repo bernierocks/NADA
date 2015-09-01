@@ -115,23 +115,29 @@ h2 {
   background-image: -ms-linear-gradient(90deg, #2d5076 0%, #7092b7 100%);
 }
 
+/* line 144, style.sass */
+.nav li a {
+  padding-top: 4px;
+  padding-bottom: 5px;
+}
+
 /* ===========================================================================================
  *
  * 						Sidebar
  *
  * =========================================================================================== */
-/* line 151, style.sass */
+/* line 155, style.sass */
 .sidebar {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-/* line 155, style.sass */
+/* line 159, style.sass */
 .sidebar .login {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
 }
-/* line 159, style.sass */
+/* line 163, style.sass */
 .sidebar .login h2 {
   font-size: 14px;
   font-weight: bold;
@@ -143,7 +149,7 @@ h2 {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 172, style.sass */
+/* line 176, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -152,7 +158,7 @@ footer .container {
   color: white;
   vertical-align: middle;
 }
-/* line 179, style.sass */
+/* line 183, style.sass */
 footer .container p {
   text-align: center;
   color: white;
