@@ -167,7 +167,7 @@ h2 {
   margin-top: 15px;
 }
 /* line 188, style.sass */
-.sidebar input[type="text"], .sidebar input[type="password" i] {
+.sidebar input[type="text"], .sidebar input[type="password"] {
   width: 100%;
 }
 
