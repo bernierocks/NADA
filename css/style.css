@@ -96,12 +96,18 @@ hr {
   box-sizing: border-box;
 }
 
+/* line 120, style.sass */
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
 /* ===========================================================================================
  *
  * 						Adjustments
  *
  * =========================================================================================== */
-/* line 129, style.sass */
+/* line 133, style.sass */
 .container {
   max-width: 850px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.75);
@@ -120,14 +126,14 @@ hr {
  * 						Menu
  *
  * =========================================================================================== */
-/* line 149, style.sass */
+/* line 153, style.sass */
 #NP {
   background-image: -moz-linear-gradient(90deg, #2d5076 0%, #7092b7 100%);
   background-image: -webkit-linear-gradient(90deg, #2d5076 0%, #7092b7 100%);
   background-image: -ms-linear-gradient(90deg, #2d5076 0%, #7092b7 100%);
 }
 
-/* line 155, style.sass */
+/* line 159, style.sass */
 .nav li a {
   padding-top: 4px;
   padding-bottom: 5px;
@@ -135,21 +141,21 @@ hr {
   padding-right: 10px !important;
 }
 
-/* line 161, style.sass */
+/* line 165, style.sass */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus, .nav > li > a:hover, .nav > li > a:focus {
   background-color: #018c76;
 }
 
-/* line 164, style.sass */
+/* line 168, style.sass */
 .navbar-nav > li > .dropdown-menu {
   background: #6a6a6a;
   padding: 0;
 }
-/* line 167, style.sass */
+/* line 171, style.sass */
 .navbar-nav > li > .dropdown-menu li {
   border-bottom: 1px solid #003300;
 }
-/* line 169, style.sass */
+/* line 173, style.sass */
 .navbar-nav > li > .dropdown-menu a {
   font-size: 11px;
   color: white;
@@ -158,7 +164,7 @@ hr {
   padding-bottom: 5px;
 }
 
-/* line 177, style.sass */
+/* line 181, style.sass */
 #main-menu .caret {
   display: none;
 }
@@ -168,13 +174,13 @@ hr {
  * 						Main Content
  *
  * ===========================================================================================             */
-/* line 187, style.sass */
+/* line 191, style.sass */
 .bc-maincontent {
   padding-top: 25px;
   padding-bottom: 65px;
 }
 @media (min-width: 991px) {
-  /* line 187, style.sass */
+  /* line 191, style.sass */
   .bc-maincontent {
     padding-left: 30px;
   }
@@ -185,35 +191,35 @@ hr {
  * 						Sidebar
  *
  * =========================================================================================== */
-/* line 200, style.sass */
+/* line 204, style.sass */
 .sidebar {
   padding-top: 8px;
   padding-bottom: 25px;
 }
-/* line 204, style.sass */
+/* line 208, style.sass */
 .sidebar .login, .sidebar .calendar {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
   margin-top: 17px;
 }
-/* line 209, style.sass */
+/* line 213, style.sass */
 .sidebar .login h2, .sidebar .calendar h2 {
   font-size: 14px;
   font-weight: bold;
   color: #018c76;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
-/* line 215, style.sass */
+/* line 219, style.sass */
 .sidebar .login h2 {
   margin-bottom: 15px;
 }
-/* line 217, style.sass */
+/* line 221, style.sass */
 .sidebar .sponsors {
   text-align: center;
   margin-top: 15px;
 }
-/* line 221, style.sass */
+/* line 225, style.sass */
 .sidebar input[type="text"], .sidebar input[type="password"] {
   width: 100%;
   margin-bottom: 10px;
@@ -227,11 +233,11 @@ hr {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 235, style.sass */
+/* line 239, style.sass */
 footer {
   margin-bottom: 30px;
 }
-/* line 238, style.sass */
+/* line 242, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -241,7 +247,7 @@ footer .container {
   vertical-align: middle;
   box-shadow: 0px 5px 38px rgba(0, 0, 0, 0.4);
 }
-/* line 246, style.sass */
+/* line 250, style.sass */
 footer .container p {
   text-align: center;
   color: white;
