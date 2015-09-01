@@ -5,7 +5,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
 
 <div class="container">   
     <div class="row">  
-        <div class="col col-sm-12 col-md-8">  
+        <div class="col col-sm-12 col-md-8 bc-maincontent">  
             <?php readfile('/home/ncadsa/public_html/section_1.htm');?>        
 
         </div><!-- /.col8-->
@@ -16,7 +16,9 @@ include('header.php'); // Include pulls another file into the page, and sticks i
                 <? echo log_in_form(); ?>         
                     
             </div><!-- /.login -->
-            
+            <div class="calendar">
+                <?php readfile('/home/ncadsa/public_html/calNADA3.htm');?>       
+            </div><!-- /.calendar -->
             <div class="sponsors">
                 <a href="http://www.nadsa.org/" title="Member of NADSA">
                     <img src="images/logo_ncadsa.jpg">
