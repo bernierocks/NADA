@@ -267,13 +267,13 @@ a {
 @media (min-width: 722px) and (max-width: 991px) {
   /* line 247, style.sass */
   #mobile-menu-col {
-    margin-top: -29px;
+    margin-top: -47px;
   }
 }
 @media (min-width: 395px) and (max-width: 721px) {
   /* line 247, style.sass */
   #mobile-menu-col {
-    margin-top: -101px;
+    margin-top: -48px;
   }
 }
 
