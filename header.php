@@ -1,4 +1,6 @@
 <?include('header_top.php');?>
+
+<link href='//fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
 <!-- Google Fonts -->
 <!-- When adding a google font, be sure to remove the HTTP: from the URL.  
 	 This will allow us to switch between HTTP and HTTPS -->
