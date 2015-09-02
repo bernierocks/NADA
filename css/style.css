@@ -121,19 +121,24 @@ a {
  *
  * =========================================================================================== */
 /* */
+/* line 148, style.sass */
+header .logo {
+  text-align: right;
+}
+
 /* ===========================================================================================
  *
  * 						Menu
  *
  * =========================================================================================== */
-/* line 153, style.sass */
+/* line 157, style.sass */
 #NP {
   background-image: -moz-linear-gradient(90deg, #2d5076 0%, #7092b7 100%);
   background-image: -webkit-linear-gradient(90deg, #2d5076 0%, #7092b7 100%);
   background-image: -ms-linear-gradient(90deg, #2d5076 0%, #7092b7 100%);
 }
 
-/* line 159, style.sass */
+/* line 163, style.sass */
 .nav li a {
   padding-top: 4px;
   padding-bottom: 5px;
@@ -141,25 +146,25 @@ a {
   padding-right: 10px !important;
 }
 
-/* line 165, style.sass */
+/* line 169, style.sass */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus, .nav > li > a:hover, .nav > li > a:focus {
   background-color: #018c76;
 }
 
-/* line 168, style.sass */
+/* line 172, style.sass */
 .navbar-nav > li > .dropdown-menu {
   background: #6a6a6a;
   padding: 0;
 }
-/* line 171, style.sass */
+/* line 175, style.sass */
 .navbar-nav > li > .dropdown-menu li {
   border-bottom: 1px solid #003300;
 }
-/* line 173, style.sass */
+/* line 177, style.sass */
 .navbar-nav > li > .dropdown-menu li:nth-last-child {
   border-bottom: 1px solid transparent;
 }
-/* line 175, style.sass */
+/* line 179, style.sass */
 .navbar-nav > li > .dropdown-menu a {
   font-size: 11px;
   color: white;
@@ -168,24 +173,24 @@ a {
   padding-bottom: 5px;
 }
 
-/* line 183, style.sass */
+/* line 187, style.sass */
 #main-menu .caret {
   display: none;
 }
 
-/* line 188, style.sass */
+/* line 192, style.sass */
 #mobile-toggle svg {
   width: 32px;
   height: 32px;
 }
 
-/* line 193, style.sass */
+/* line 197, style.sass */
 .modal-body {
   position: relative;
   padding: 20px 20px 40px;
 }
 
-/* line 197, style.sass */
+/* line 201, style.sass */
 #mobileMenuWrapper {
   height: 100vh;
   position: fixed;
@@ -201,18 +206,18 @@ a {
   transition: all 300ms cubic-bezier(1, 0.01, 0, 1) 0s;
 }
 
-/* line 210, style.sass */
+/* line 214, style.sass */
 #mobileMenuWrapper.open {
   left: 0px;
   bottom: 0px;
 }
 
-/* line 214, style.sass */
+/* line 218, style.sass */
 #mobileMenuWrapper #mobile-menu {
   overflow: auto;
   padding: 0px 20px 10px;
 }
-/* line 217, style.sass */
+/* line 221, style.sass */
 #mobileMenuWrapper #mobile-menu > li#triggerClose {
   color: white;
   float: right;
@@ -221,7 +226,7 @@ a {
   cursor: pointer;
   transform: rotate(45deg);
 }
-/* line 224, style.sass */
+/* line 228, style.sass */
 #mobileMenuWrapper #mobile-menu a {
   width: 100%;
   color: white;
@@ -230,33 +235,33 @@ a {
   font-size: 14px;
   padding: 8px 10px;
 }
-/* line 231, style.sass */
+/* line 235, style.sass */
 #mobileMenuWrapper #mobile-menu a:hover {
   background-color: #003cab;
   text-decoration: none;
 }
-/* line 234, style.sass */
+/* line 238, style.sass */
 #mobileMenuWrapper ul {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
 }
 
-/* line 238, style.sass */
+/* line 242, style.sass */
 #mobileMenuWrapper {
   background-color: rgba(0, 0, 0, 0.96);
 }
-/* line 240, style.sass */
+/* line 244, style.sass */
 #mobileMenuWrapper a {
   text-decoration: none;
 }
-/* line 242, style.sass */
+/* line 246, style.sass */
 #mobileMenuWrapper ul.mDropdown {
   margin: 0 15px;
   display: none;
 }
 
-/* line 245, style.sass */
+/* line 249, style.sass */
 #mobile-toggle {
   border: none;
   background: transparent;
@@ -264,7 +269,7 @@ a {
   cursor: pointer;
 }
 
-/* line 250, style.sass */
+/* line 254, style.sass */
 #mobile-menu-col {
   top: 13px;
   right: 20px;
@@ -273,42 +278,42 @@ a {
   margin-right: -14px;
 }
 @media (min-width: 722px) and (max-width: 991px) {
-  /* line 250, style.sass */
+  /* line 254, style.sass */
   #mobile-menu-col {
     margin-top: -47px;
   }
 }
 @media (min-width: 395px) and (max-width: 721px) {
-  /* line 250, style.sass */
+  /* line 254, style.sass */
   #mobile-menu-col {
     margin-top: -48px;
   }
 }
 @media (max-width: 394px) {
-  /* line 250, style.sass */
+  /* line 254, style.sass */
   #mobile-menu-col {
     margin-top: -46px;
   }
 }
 
-/* line 263, style.sass */
+/* line 267, style.sass */
 #mobile-logo {
   width: 40%;
   float: left;
   margin-top: 27px;
   margin-bottom: 20px;
 }
-/* line 268, style.sass */
+/* line 272, style.sass */
 #mobile-logo a {
   margin: 0 !important;
 }
-/* line 270, style.sass */
+/* line 274, style.sass */
 #mobile-logo svg#logo {
   width: 250px;
   max-width: 250px;
 }
 
-/* line 276, style.sass */
+/* line 280, style.sass */
 #mobile-toggle {
   padding: 7px 7px 3px;
   border-radius: 4px;
@@ -322,19 +327,19 @@ a {
  * 						Main Content
  *
  * ===========================================================================================             */
-/* line 291, style.sass */
+/* line 295, style.sass */
 .bc-maincontent {
   padding-top: 25px;
   padding-bottom: 65px;
 }
 @media (min-width: 991px) {
-  /* line 291, style.sass */
+  /* line 295, style.sass */
   .bc-maincontent {
     padding-left: 30px;
   }
 }
 @media (max-width: 480px) {
-  /* line 298, style.sass */
+  /* line 302, style.sass */
   .bc-maincontent > div:nth-child(1) {
     text-align: left !important;
   }
@@ -345,35 +350,35 @@ a {
  * 						Sidebar
  *
  * =========================================================================================== */
-/* line 307, style.sass */
+/* line 311, style.sass */
 .sidebar, .modal-body {
   padding-top: 8px;
   padding-bottom: 25px;
 }
-/* line 311, style.sass */
+/* line 315, style.sass */
 .sidebar .login, .sidebar .calendar, .modal-body .login, .modal-body .calendar {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
   margin-top: 17px;
 }
-/* line 316, style.sass */
+/* line 320, style.sass */
 .sidebar .login h2, .sidebar .calendar h2, .modal-body .login h2, .modal-body .calendar h2 {
   font-size: 14px;
   font-weight: bold;
   color: #018c76;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
-/* line 322, style.sass */
+/* line 326, style.sass */
 .sidebar .login h2, .modal-body .login h2 {
   margin-bottom: 15px;
 }
-/* line 324, style.sass */
+/* line 328, style.sass */
 .sidebar .sponsors, .modal-body .sponsors {
   text-align: center;
   margin-top: 15px;
 }
-/* line 328, style.sass */
+/* line 332, style.sass */
 .sidebar input[type="text"], .sidebar input[type="password"], .modal-body input[type="text"], .modal-body input[type="password"] {
   width: 100%;
   margin-bottom: 10px;
@@ -387,11 +392,11 @@ a {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 342, style.sass */
+/* line 346, style.sass */
 footer {
   margin-bottom: 30px;
 }
-/* line 345, style.sass */
+/* line 349, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -401,7 +406,7 @@ footer .container {
   vertical-align: middle;
   box-shadow: 0px 5px 38px rgba(0, 0, 0, 0.4);
 }
-/* line 353, style.sass */
+/* line 357, style.sass */
 footer .container p {
   text-align: center;
   color: white;
