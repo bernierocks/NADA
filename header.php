@@ -57,9 +57,11 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
        <div class="row">  
         
            <div class="header">
+             <div class="row">  
               <div class="col col-sm-12 col-md-2">   
                 <img alt="" src="images/logo.png">
                </div><!-- /.col2-->
+               </div><!-- /.row -->
            </div><!-- /.header -->
            
             <div id="main-menu">
