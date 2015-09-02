@@ -58,7 +58,7 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
         
            <div class="header">
               <div class="col col-sm-12 col-md-2">   
-               <?php readfile('images/logo.svg');?>
+                <img alt="" src="images/logo.png">
                </div><!-- /.col2-->
            </div><!-- /.header -->
            
