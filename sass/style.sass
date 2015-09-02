@@ -148,7 +148,8 @@ header
     .logo
         text-align: right
     .header
-        background: #cbd4dd url("../images/header-banner.png") no-repeat center top
+        +bcbreakpoint($min: 767px, $max: 0)
+            background: #cbd4dd url("../images/header-banner.png") no-repeat center top
 /* 
     ===========================================================================================
 
