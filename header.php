@@ -67,6 +67,9 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
                    <h1>
                        North Carolina Adult Day Services Association
                    </h1>
+                   <p>
+                       Promoting the availability, accessibility, cost effectiveness and quality of adult day services in North Carolina
+                   </p>
                 </div><!-- /.col8-->
                </div><!-- /.row -->
            </div><!-- /.header -->
