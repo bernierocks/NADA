@@ -147,7 +147,7 @@ header h1 {
   font-size: 32px;
   margin: 6px 0 0 0;
 }
-@media (max-width: 767) {
+@media (max-width: 767px) {
   /* line 159, style.sass */
   header h1 {
     max-width: 300px;
@@ -157,7 +157,7 @@ header h1 {
 header p {
   color: #006e52;
 }
-@media (max-width: 767) {
+@media (max-width: 767px) {
   /* line 166, style.sass */
   header p {
     max-width: 352px;
