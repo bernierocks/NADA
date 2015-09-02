@@ -134,7 +134,7 @@ header .logo img {
 header .header {
   background-color: #cbd4dd;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   /* line 154, style.sass */
   header .header {
     background: #cbd4dd url("../images/header-banner.png") no-repeat center top;
