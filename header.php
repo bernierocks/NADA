@@ -63,7 +63,7 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
               <div class="col col-xs-2 col-sm-2 col-md-2 logo">   
                 <img alt="" src="images/logo.png">
                </div><!-- /.col2-->
-               <div class="col col-xs-8 col-sm-8 col-md-8">  
+               <div class="col col-xs-10 col-sm-10 col-md-10">  
                    <h1>
                        North Carolina Adult Day Services Association
                    </h1>
