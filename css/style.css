@@ -124,11 +124,11 @@ a {
 /* line 148, style.sass */
 header .logo {
   text-align: right;
-  padding: 0;
+  padding: 0 !important;
 }
 /* line 151, style.sass */
 header .logo img {
-  float: right;
+  float: right !important;
 }
 /* line 154, style.sass */
 header .header {
