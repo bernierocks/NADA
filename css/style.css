@@ -435,12 +435,18 @@ header p {
 .sidebar .login h2, .modal-body .login h2 {
   margin-bottom: 15px;
 }
-/* line 367, style.sass */
+@media (max-width: 991px) {
+  /* line 364, style.sass */
+  .sidebar .login, .modal-body .login {
+    display: none;
+  }
+}
+/* line 369, style.sass */
 .sidebar .sponsors, .modal-body .sponsors {
   text-align: center;
   margin-top: 15px;
 }
-/* line 371, style.sass */
+/* line 373, style.sass */
 .sidebar input[type="text"], .sidebar input[type="password"], .modal-body input[type="text"], .modal-body input[type="password"] {
   width: 100%;
   margin-bottom: 10px;
@@ -448,15 +454,15 @@ header p {
   border: #cecece solid 1px;
   border-radius: 2px;
 }
-/* line 378, style.sass */
+/* line 380, style.sass */
 .sidebar .calendar font, .modal-body .calendar font {
   font-size: 16px !important;
 }
-/* line 380, style.sass */
+/* line 382, style.sass */
 .sidebar .calendar b, .modal-body .calendar b {
   font-size: 16px !important;
 }
-/* line 382, style.sass */
+/* line 384, style.sass */
 .sidebar .calendar a, .modal-body .calendar a {
   font-size: 16px !important;
 }
@@ -466,11 +472,11 @@ header p {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 392, style.sass */
+/* line 394, style.sass */
 footer {
   margin-bottom: 30px;
 }
-/* line 395, style.sass */
+/* line 397, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -480,7 +486,7 @@ footer .container {
   vertical-align: middle;
   box-shadow: 0px 5px 38px rgba(0, 0, 0, 0.4);
 }
-/* line 403, style.sass */
+/* line 405, style.sass */
 footer .container p {
   text-align: center;
   color: white;
