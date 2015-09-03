@@ -336,7 +336,7 @@ header p {
   position: relative;
   margin-right: -14px;
 }
-@media (min-width: 722px) and (max-width: 991px) {
+@media (max-width: 991px) {
   /* line 288, style.sass */
   #mobile-menu-col {
     margin-top: -47px;
