@@ -76,22 +76,22 @@ h2 {
 
 /* line 104, style.sass */
 ::-webkit-input-placeholder {
-  color: #610000 !important;
+  color: #888888 !important;
 }
 
 /* line 107, style.sass */
 :-moz-placeholder {
-  color: #610000 !important;
+  color: #888888 !important;
 }
 
 /* line 110, style.sass */
 ::-moz-placeholder {
-  color: #610000 !important;
+  color: #888888 !important;
 }
 
 /* line 113, style.sass */
 :-ms-input-placeholder {
-  color: #610000 !important;
+  color: #888888 !important;
 }
 
 /* line 117, style.sass */
