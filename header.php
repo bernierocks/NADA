@@ -7,15 +7,6 @@
 
 
 
-<?
-/* The next section deals with titles on sub pages */
-// Keep in mind that any divs started in this block of code must be closed in the footer
-if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If these items evaluate to TRUE, it will perform the first block of code.
-	echo '<h2 class="title">'.$title.'</h2>';//ECHO is PHP's command to output to the page.
-} else { //If the IF statement evaluates to FALSE, this code will be run.  This is optional.
-
-}?>
-
 
 
 <header>   
@@ -98,3 +89,13 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
     <div class="row">  
         <div class="col col-sm-12 col-md-12">   
         
+       
+      
+<?
+/* The next section deals with titles on sub pages */
+// Keep in mind that any divs started in this block of code must be closed in the footer
+if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If these items evaluate to TRUE, it will perform the first block of code.
+	echo '<h2 class="title">'.$title.'</h2>';//ECHO is PHP's command to output to the page.
+} else { //If the IF statement evaluates to FALSE, this code will be run.  This is optional.
+
+}?>
