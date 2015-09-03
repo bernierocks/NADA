@@ -6,7 +6,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
 <div class="container">   
     <div class="row">  
 
-        <div class="col col-sm-12 col-md-push-4 sidebar"> 
+        <div class="col col-sm-12 col-md-4 col-md-push-4 sidebar"> 
             
             <div class="login">
                <h2>Member Login</h2>
@@ -26,7 +26,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
             </div><!-- /.sponsors -->
         </div><!-- /.col4-->
                    
-       <div class="col col-sm-12 col-md-pull-8 bc-maincontent">  
+       <div class="col col-sm-12 col-md-8 col-md-pull-8 bc-maincontent">  
             <?php readfile('/home/ncadsa/public_html/section_1_responsive.htm');?>        
 
         </div><!-- /.col8-->
