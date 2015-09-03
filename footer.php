@@ -1,3 +1,15 @@
+
+<? 
+		if($home!='Y' AND $_GET['mms']!='X'){
+			echo '
+      </div><!-- /.col12-->
+    </div><!-- /.row -->
+</div><!-- /.main-content -->
+'; 
+			//end
+		}
+		?>
+
 <?
 // // Keep in mind that any divs started in the header must be closed here.
 // if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If these items evaluate to TRUE, it will perform the first block of code.
@@ -7,9 +19,7 @@
 // }
 ?>
 
-        </div><!-- /.col12-->
-    </div><!-- /.row -->
-</div><!-- /.main-content -->
+        
 
 <footer>  
    <div class="container">   
