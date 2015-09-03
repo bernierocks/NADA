@@ -7,6 +7,9 @@
 // }
 ?>
 
+        </div><!-- /.col12-->
+    </div><!-- /.row -->
+</div><!-- /.main-content -->
 
 <footer>  
    <div class="container">   
