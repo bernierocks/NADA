@@ -45,7 +45,7 @@
         });
 
         $(".mToggle").click(function(){
-            $(this).find("ul").toggleClass("mopen");
+            $(this).parent().find(".mDropdown").toggleClass("mopen");
         });
         
         
