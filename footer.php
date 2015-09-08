@@ -44,6 +44,10 @@
           $("#mobileMenuWrapper").removeClass("open");
         });
 
-
-    
+        $(".mobile-toggle").click(function(){
+            $(this).find(".mDropdown").toggleClass("mopen");
+        });
+        
+        
+        
 </script>
