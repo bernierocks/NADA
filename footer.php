@@ -44,7 +44,7 @@
           $("#mobileMenuWrapper").removeClass("open");
         });
 
-        $(".mobile-toggle").click(function(){
+        $(".mToggle").click(function(){
             $(this).find(".mDropdown").toggleClass("mopen");
         });
         
