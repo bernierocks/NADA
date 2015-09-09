@@ -60,9 +60,6 @@
                 </a>
                </div><!-- /.col2-->
                <div class="col col-xs-10 col-sm-10 col-md-10">  
-                   <h1>
-                       North Carolina Adult Day Services Association
-                   </h1>
                    <p>
                        Promoting the availability, accessibility, cost effectiveness and quality of adult day services in North Carolina
                    </p>
