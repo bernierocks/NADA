@@ -52,10 +52,10 @@
            <div class="header">
              <div class="row">  
               <div class="col col-xs-2 col-sm-2 col-md-2 logo">   
-                <a href="<?=$base;?>" alt="" class="bc-mobile">
+                <a href="<?=$base;?>" alt="" class="bc-desktop">
                 <?php readfile('images/Web_ncadsa_3Lines.svg');?>
                 </a>
-                <a href="<?=$base;?>" alt="" class="bc-desktop">
+                <a href="<?=$base;?>" alt="" class="bc-mobile">
                 <?php readfile('images/ncadsa_1Line.svg');?>
                 </a>
                </div><!-- /.col2-->
