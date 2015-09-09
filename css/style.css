@@ -156,7 +156,7 @@ header .logo svg {
 @media (min-width: 991px) {
   /* line 164, style.sass */
   header .logo svg {
-    height: 125px;
+    height: 95px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
