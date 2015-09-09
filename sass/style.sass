@@ -175,9 +175,16 @@ header
                 max-width: 104px
                 margin: 0 29px
                 height: 118px
-            +bcbreakpoint($min: 767px, $max: 0)
+            +bcbreakpoint($min: 1199px, $max: 0)
                 position: absolute
                 margin-left: -150px
+            +bcbreakpoint($min: 1199px, $max: 0)
+                position: absolute
+                margin-left: -150px
+            +bcbreakpoint($min: 992px, $max: 0)
+                position: absolute
+                margin-left: -115px
+        
     .header
         background-color: #cbd4dd
         +bcbreakpoint($min: 768px, $max: 0)
