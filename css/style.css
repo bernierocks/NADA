@@ -573,18 +573,18 @@ footer .container p {
     display: none;
   }
 }
-
-@media (max-width: 990px) {
-  /* line 465, style.sass */
-  .bc-mobile {
-    display: none;
-  }
-}
 @media (max-width: 970px) {
-  /* line 468, style.sass */
-  .bc-mobile svg {
+  /* line 465, style.sass */
+  .bc-desktop svg {
     max-width: 104px;
     height: 140px;
     margin: 0 29px;
+  }
+}
+
+@media (max-width: 990px) {
+  /* line 470, style.sass */
+  .bc-mobile {
+    display: none;
   }
 }
