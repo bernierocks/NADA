@@ -567,23 +567,23 @@ footer .container p {
   content: "";
 }
 
-@media (min-width: 991px) {
-  /* line 462, style.sass */
-  .bc-desktop {
-    display: none;
-  }
-}
 @media (max-width: 970px) {
-  /* line 465, style.sass */
+  /* line 463, style.sass */
   .bc-desktop svg {
     max-width: 104px;
     height: 140px;
     margin: 0 29px;
   }
 }
+@media (min-width: 991px) {
+  /* line 462, style.sass */
+  .bc-desktop {
+    display: none;
+  }
+}
 
 @media (max-width: 990px) {
-  /* line 470, style.sass */
+  /* line 471, style.sass */
   .bc-mobile {
     display: none;
   }

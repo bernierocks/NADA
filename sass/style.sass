@@ -460,13 +460,14 @@ footer
 
 
 .bc-desktop
-    +bcbreakpoint($min: 991px, $max: 0)
-        display: none
     svg
         +bcbreakpoint($min: 0, $max: 970px)
             max-width: 104px
             height: 140px
             margin: 0 29px
+    +bcbreakpoint($min: 991px, $max: 0)
+        display: none
+
 .bc-mobile
     +bcbreakpoint($min: 0, $max: 990px)
         display: none
