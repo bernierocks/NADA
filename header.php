@@ -52,7 +52,7 @@
            <div class="header">
              <div class="row">  
               <div class="col col-xs-2 col-sm-2 col-md-2 logo">   
-                <img alt="" src="images/logo.png" class="img-responsive">
+                <?php readfile('images/Web_ncadsa_3Lines.svg');?>
                </div><!-- /.col2-->
                <div class="col col-xs-10 col-sm-10 col-md-10">  
                    <h1>
