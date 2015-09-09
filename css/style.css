@@ -629,26 +629,12 @@ footer .container p {
   content: "";
 }
 
-@media (min-width: 991px) {
-  /* line 494, style.sass */
-  .bc-desktop {
-    display: none;
-  }
-}
-
-@media (max-width: 990px) {
-  /* line 498, style.sass */
-  .bc-mobile {
-    display: none;
-  }
-}
-
 @media (max-width: 672px) {
-  /* line 505, style.sass */
+  /* line 497, style.sass */
   header .col-xs-2 {
     width: 100% !important;
   }
-  /* line 507, style.sass */
+  /* line 499, style.sass */
   header .col-xs-10 {
     width: 100% !important;
   }
