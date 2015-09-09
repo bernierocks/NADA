@@ -167,6 +167,8 @@ header
             margin: 10px
             +bcbreakpoint($min: 991px, $max: 0)
                 height: 125px
+            +bcbreakpoint($min: 992px, $max: 1199px)
+                max-width: 126px
         
     .header
         background-color: #cbd4dd
@@ -461,3 +463,8 @@ footer
 .bc-mobile
     +bcbreakpoint($min: 0, $max: 990px)
         display: none
+    svg
+        +bcbreakpoint($min: 0, $max: 970px)
+            max-width: 104px
+            height: 140px
+            margin: 0 29px
