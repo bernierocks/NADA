@@ -451,3 +451,11 @@ footer
     border-bottom: 0 dotted
     border-left: 4px solid transparent
     content: ""
+
+
+.bc-desktop
+    +bcbreakpoint($min: 991px, $max: 0)
+        display: none
+.bc-mobile
+    +bcbreakpoint($min: 0, $max: 990px)
+        display: none

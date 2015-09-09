@@ -548,3 +548,17 @@ footer .container p {
   border-left: 4px solid transparent;
   content: "";
 }
+
+@media (min-width: 991px) {
+  /* line 456, style.sass */
+  .bc-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  /* line 459, style.sass */
+  .bc-mobile {
+    display: none;
+  }
+}
