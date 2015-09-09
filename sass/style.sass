@@ -182,8 +182,10 @@ header
         font-size: 32px
         margin: 6px 0 0 0
         +bcbreakpoint($min: 0, $max: 767px)
-            max-width: 300px
+            max-width: 100%
             margin-top: 8px
+        +bcbreakpoint($min: 0, $max: 672px)
+            display: none
     p
         margin: 0 auto 5px
         color: #006e52
