@@ -165,7 +165,7 @@ header .logo svg {
     max-width: 126px;
   }
 }
-@media (max-width: 970px) {
+@media (max-width: 991px) {
   /* line 164, style.sass */
   header .logo svg {
     max-width: 104px;
