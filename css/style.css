@@ -487,24 +487,31 @@ header p {
   background-color: #9d0098;
 }
 
+/* line 383, style.sass */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  color: white;
+  text-decoration: none;
+  background-color: #9d0098;
+}
+
 /* ===========================================================================================
  *
  * 						Main Content
  *
  * ===========================================================================================             */
-/* line 389, style.sass */
+/* line 395, style.sass */
 .bc-maincontent {
   padding-top: 25px;
   padding-bottom: 65px;
 }
 @media (min-width: 991px) {
-  /* line 389, style.sass */
+  /* line 395, style.sass */
   .bc-maincontent {
     padding-left: 30px;
   }
 }
 @media (max-width: 991px) {
-  /* line 389, style.sass */
+  /* line 395, style.sass */
   .bc-maincontent {
     padding-top: 0;
     padding-bottom: 65px;
@@ -512,7 +519,7 @@ header p {
   }
 }
 @media (max-width: 480px) {
-  /* line 400, style.sass */
+  /* line 406, style.sass */
   .bc-maincontent > div:nth-child(1) {
     text-align: left !important;
   }
@@ -523,45 +530,45 @@ header p {
  * 						Sidebar
  *
  * =========================================================================================== */
-/* line 411, style.sass */
+/* line 417, style.sass */
 .sidebar, .modal-body {
   padding-top: 8px;
   padding-bottom: 25px;
 }
-/* line 414, style.sass */
+/* line 420, style.sass */
 .sidebar h2, .modal-body h2 {
   margin: 0 auto 5px;
 }
-/* line 416, style.sass */
+/* line 422, style.sass */
 .sidebar .login, .sidebar .calendar, .modal-body .login, .modal-body .calendar {
   padding: 10px;
   border: 1px solid #aedad3;
   background-color: #ebfffc;
   margin-top: 17px;
 }
-/* line 421, style.sass */
+/* line 427, style.sass */
 .sidebar .login h2, .sidebar .calendar h2, .modal-body .login h2, .modal-body .calendar h2 {
   font-size: 24px;
   font-weight: bold;
   color: #9d0098;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
-/* line 427, style.sass */
+/* line 433, style.sass */
 .sidebar .login h2, .modal-body .login h2 {
   margin-bottom: 15px;
 }
 @media (max-width: 991px) {
-  /* line 426, style.sass */
+  /* line 432, style.sass */
   .sidebar .login, .modal-body .login {
     display: none;
   }
 }
-/* line 431, style.sass */
+/* line 437, style.sass */
 .sidebar .sponsors, .modal-body .sponsors {
   text-align: center;
   margin-top: 15px;
 }
-/* line 435, style.sass */
+/* line 441, style.sass */
 .sidebar input[type="text"], .sidebar input[type="password"], .modal-body input[type="text"], .modal-body input[type="password"] {
   width: 100%;
   margin-bottom: 10px;
@@ -569,15 +576,15 @@ header p {
   border: #cecece solid 1px;
   border-radius: 2px;
 }
-/* line 442, style.sass */
+/* line 448, style.sass */
 .sidebar .calendar font, .modal-body .calendar font {
   font-size: 16px !important;
 }
-/* line 444, style.sass */
+/* line 450, style.sass */
 .sidebar .calendar b, .modal-body .calendar b {
   font-size: 16px !important;
 }
-/* line 446, style.sass */
+/* line 452, style.sass */
 .sidebar .calendar a, .modal-body .calendar a {
   font-size: 16px !important;
 }
@@ -587,11 +594,11 @@ header p {
  * 						Footer
  *
  * =========================================================================================== */
-/* line 456, style.sass */
+/* line 462, style.sass */
 footer {
   margin-bottom: 30px;
 }
-/* line 459, style.sass */
+/* line 465, style.sass */
 footer .container {
   background-color: #3d70b1;
   min-height: 20px;
@@ -601,7 +608,7 @@ footer .container {
   vertical-align: middle;
   box-shadow: 0px 5px 38px rgba(0, 0, 0, 0.4);
 }
-/* line 467, style.sass */
+/* line 473, style.sass */
 footer .container p {
   text-align: center;
   color: white;
@@ -616,12 +623,12 @@ footer .container p {
  * 						Misc
  *
  * ===========================================================================================         */
-/* line 483, style.sass */
+/* line 489, style.sass */
 .mopen {
   display: block !important;
 }
 
-/* line 486, style.sass */
+/* line 492, style.sass */
 .caret {
   display: inline-block;
   width: 0;
@@ -636,11 +643,11 @@ footer .container p {
 }
 
 @media (max-width: 672px) {
-  /* line 502, style.sass */
+  /* line 508, style.sass */
   header .col-xs-2 {
     width: 100% !important;
   }
-  /* line 504, style.sass */
+  /* line 510, style.sass */
   header .col-xs-10 {
     width: 100% !important;
   }
